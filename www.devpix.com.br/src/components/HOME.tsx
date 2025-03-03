@@ -32,7 +32,7 @@ export default function Homepage() {
                     {/* Botões */}
                     <div className="mt-6 flex gap-4">
                         <button className="bg-blue-900 text-white px-6 py-3 rounded-md font-semibold">
-                            Descubra o DevPix &rarr;
+                            Descubra o Devpix &rarr;
                         </button>
                         <button className="border-2 border-blue-900 px-6 py-3 rounded-md font-semibold">
                             Solicitar contato &rarr;
@@ -49,6 +49,36 @@ export default function Homepage() {
                     className="relative z-10"
                 />
             </div>
+
+            <div class="flex flex-col items-center">
+                <div class="flex justify-center gap-36">
+
+                    <div class="flex flex-col items-center bg-[url('/background1.svg')] bg-no-repeat bg-center bg-cover w-40 h-40 pt-5">
+                        <img src="/icon-visibilidade.svg" alt="" class="mb-3"/>
+                        <h1 class='text-blue-800 font-bold text-2xl leading-tight'>+ Visibilidade</h1>
+                        <p  class="text-center max-w-lg">Maior exposição para sua empresa</p>
+                    </div>
+
+                    <div class="flex flex-col items-center bg-[url('/background1.svg')] bg-no-repeat bg-center bg-cover w-40 h-40 pt-5">
+                        <img src="/icon-metricas.svg" alt="" class="mb-3"/>
+                        <h1 class='text-blue-800 font-bold text-2xl leading-tight'>Métricas</h1>
+                        <p  class="text-center max-w-lg">Monitore o trafego</p>
+                    </div>
+
+                    <div class="flex flex-col items-center bg-[url('/background1.svg')] bg-no-repeat bg-center bg-cover w-40 h-40 pt-5">
+                        <img src="/icon-fidelizacao.svg" alt="" class="mb-3"/>
+                        <h1 class='text-blue-800 font-bold text-2xl leading-tight'>Fidelidade</h1>
+                        <p  class="text-center max-w-lg">Maior busca pela sua marca</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-center h-20">
+                    <p class="text-center max-w-lg">
+                        Precisando de mais provas? <span className="text-blue-800">Solicite um contato</span> e descubra como impulsionar o seu negócio com a equipe de desenvolvimento da Devpix.
+                    </p>
+                </div>
+            </div>
+
         </main>
     );
 }
