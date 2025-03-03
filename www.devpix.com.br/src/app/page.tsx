@@ -1,3 +1,4 @@
+import Homepage from "@/components/HOME";
 import NavBar from "@/components/NavBar";
 import Image from "next/image";
 
@@ -6,9 +7,7 @@ export default function Home() {
     <div className="">
 
       <main className="">
-        <div>
-          body
-        </div>
+        <Homepage />
       </main>
     </div>
   );
