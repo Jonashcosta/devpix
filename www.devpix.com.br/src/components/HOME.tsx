@@ -56,32 +56,32 @@ export default function Homepage() {
 
                     <div className="flex flex-col items-center bg-[url('/background1.svg')] bg-no-repeat bg-center bg-cover w-40 h-40 pt-5">
                         <Image
-                            src="/icon-visibilidade.svg" 
-                            alt="" 
+                            src="/icon-visibilidade.svg"
+                            alt=""
                             width={40}
                             height={40}
                             className="mb-3"
-                            />
+                        />
                         <h1 className='text-blue-800 font-bold text-2xl leading-tight'>+ Visibilidade</h1>
                         <p className="text-center max-w-lg">Maior exposição para sua empresa</p>
                     </div>
 
                     <div className="flex flex-col items-center bg-[url('/background1.svg')] bg-no-repeat bg-center bg-cover w-40 h-40 pt-5">
                         <Image
-                            src="/icon-metricas.svg" 
-                            alt="" 
+                            src="/icon-metricas.svg"
+                            alt=""
                             width={40}
                             height={40}
                             className="mb-3"
-                            />
+                        />
                         <h1 className='text-blue-800 font-bold text-2xl leading-tight'>Métricas</h1>
                         <p className="text-center max-w-lg">Monitore o trafego</p>
                     </div>
 
                     <div className="flex flex-col items-center bg-[url('/background1.svg')] bg-no-repeat bg-center bg-cover w-40 h-40 pt-5">
                         <Image
-                            src="/icon-fidelizacao.svg" 
-                            alt="" 
+                            src="/icon-fidelizacao.svg"
+                            alt=""
                             width={40}
                             height={40}
                             className="mb-3"
@@ -99,19 +99,19 @@ export default function Homepage() {
             </div>
 
 
-            <div className="flex justify-center items-start w-4/5 mx-auto mt-20 gap-4">
-                <div className="flex justify-center items-center w-1/2">
+            <div className="flex justify-center items-start  mx-auto mt-20  mb-0 gap-4">
+                <div className="flex justify-center items-center w-1/4">
                     <Image
-                        src="/mulher_de_ti.png" 
-                        alt="Mulher de TI" 
-                        width={40}
-                        height={40}
-                        className="w-96" 
+                        src="/mulher_de_ti.png"
+                        alt="Mulher de TI"
+                        width={600}
+                        height={600}
+                        className="max-w-full h-auto"
                     />
                 </div>
-                <div className="w-1/2 flex flex-col items-start">
+                <div className="w-2/5 flex flex-col items-start">
                     <h1 className="text-4xl font-bold text-gray-900 leading-tight">
-                    A <span className="text-blue-800">solução digital</span> para o seu negócio.
+                        A <span className="text-blue-800">solução digital</span> para o seu negócio.
                     </h1>
                     <p className="text-gray-700 mt-4 text-justify">
                         Destaque-se com um site profissional feito sob medida para sua marca! A primeira impressão é decisiva, especialmente na internet. Sua empresa merece um site moderno, rápido e que transmita confiança desde o primeiro clique. Na DevPix, transformamos ideias em experiências digitais excepcionais, utilizando design limpo, funcional e totalmente personalizado.
@@ -128,9 +128,51 @@ export default function Homepage() {
                 </div>
             </div>
 
-            <div>
-                
+            <div className='mt-0 mb-0'>
+                <Image
+                    src="/component-12-x.svg"
+                    alt="Profissional de TI"    
+                    width={80}
+                    height={80}
+                    className="w-40 mx-auto max-w-full h-auto"
+                />
             </div>
+
+
+            <div className="flex justify-center items-start w-4/5 mx-auto mt-0 gap-12">
+                <div className="w-2/3 ml-12 flex flex-col items-start">
+                    <h1 className="text-4xl font-bold text-gray-900 leading-tight">
+                        Consultoria e outsourcing de <span className="text-blue-800"> TI.</span>
+                    </h1>
+                    <p className="text-gray-700 mt-4 text-justify">
+                        Conte com soluções completas em consultoria e outsourcing de TI para impulsionar sua empresa ao próximo nível. Oferecemos alocação de profissionais especializados, garantindo qualidade e desempenho excepcionais para o seu negócio.
+                        <ol className=" flex flex-col list-inside list-disc mt-4 gap-2">
+                            <li>Consultoria estratégica: Identificamos e implementamos as melhores soluções tecnológicas para seu sucesso.</li>
+                            <li>Outsourcing de TI: Terceirize sua TI e concentre-se no que realmente importa para seu negócio.</li>
+                            <li>Locação e Serviço Profissional: Profissionais qualificados e soluções personalizadas de acordo com suas necessidades específicas.</li>
+                        </ol>
+                    </p>
+
+                    <div className="mt-6 flex gap-4">
+                        <button className="bg-blue-900 text-white px-6 py-3 rounded-md font-semibold">
+                            Descubra o Devpix &rarr;
+                        </button>
+                        <button className="border-2 border-blue-900 px-6 py-3 rounded-md font-semibold">
+                            Solicitar contato &rarr;
+                        </button>
+                    </div>
+                </div>
+                <div className="flex justify-center items-center w-1/3">
+                    <Image
+                        src="/profissional_de_ti.png"
+                        alt="Mulher de TI"
+                        width={400}
+                        height={400}
+                        className="max-w-full h-auto"
+                    />
+                </div>
+            </div>
+
 
 
 
