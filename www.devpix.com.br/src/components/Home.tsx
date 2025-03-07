@@ -5,7 +5,7 @@ export default function Homepage() {
     return (
         <main className='bg-white'>
 
-            <div className="relative flex justify-center  px-10 py-16">
+            <div className="relative flex justify-center  px-10 py-8">
 
                 <div className="absolute inset-0 flex">
 
@@ -55,7 +55,7 @@ export default function Homepage() {
             </div>
 
 
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center mt-20">
                 <div className="flex justify-center gap-36">
 
                     <div className="flex flex-col items-center bg-[url('/background1.svg')] bg-no-repeat bg-center bg-cover w-40 h-40 pt-5">
@@ -152,13 +152,13 @@ export default function Homepage() {
                             Consultoria e outsourcing de <span className="text-blue-800"> TI.</span>
                         </h1>
                         <p className="text-gray-700 mt-4 text-justify">
-                            Conte com soluções completas em consultoria e outsourcing de TI para impulsionar sua empresa ao próximo nível. Oferecemos alocação de profissionais especializados, garantindo qualidade e desempenho excepcionais para o seu negócio.
-                            <ol className=" flex flex-col list-inside list-disc mt-4 gap-2">
-                                <li>Consultoria estratégica: Identificamos e implementamos as melhores soluções tecnológicas para seu sucesso.</li>
-                                <li>Outsourcing de TI: Terceirize sua TI e concentre-se no que realmente importa para seu negócio.</li>
-                                <li>Locação e Serviço Profissional: Profissionais qualificados e soluções personalizadas de acordo com suas necessidades específicas.</li>
-                            </ol>
-                        </p>
+                            Conte com soluções completas em consultoria e outsourcing de TI para impulsionar sua empresa ao próximo nível. Oferecemos alocação de profissionais especializados, garantindo qualidade e desempenho excepcionais para o seu negócio.</p>
+                        <ol className=" text-gray-700 flex flex-col list-inside list-disc mt-4 gap-2">
+                            <li>Consultoria estratégica: Identificamos e implementamos as melhores soluções tecnológicas para seu sucesso.</li>
+                            <li>Outsourcing de TI: Terceirize sua TI e concentre-se no que realmente importa para seu negócio.</li>
+                            <li>Locação e Serviço Profissional: Profissionais qualificados e soluções personalizadas de acordo com suas necessidades específicas.</li>
+                        </ol>
+
 
                         <div className="mt-6 flex gap-4">
                             <button className="bg-blue-900 text-white px-6 py-3 rounded-md font-semibold">

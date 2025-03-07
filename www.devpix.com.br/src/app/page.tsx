@@ -1,4 +1,4 @@
-import Homepage from "@/components/HOME";
+import Homepage from "@/components/Home";
 import NavBar from "@/components/NavBar";
 import Image from "next/image";
 
