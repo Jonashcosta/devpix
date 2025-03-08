@@ -56,10 +56,10 @@ export default function Homepage() {
                             Comece com custo R$0 e cancele quando quiser.
                         </p>
                         <div className="mt-6 flex gap-4">
-                            <button className="bg-blue-900 text-white px-6 py-3 rounded-md font-semibold">
+                            <button className="bg-blue-900 text-white px-6 py-3 rounded-md font-semibold hover:scale-110 transition-transform duration-300">
                                 Descubra o Devpix &rarr;
                             </button>
-                            <button className="border-2 border-blue-900 px-6 py-3 rounded-md font-semibold">
+                            <button className="border-2 border-blue-900 px-6 py-3 rounded-md font-semibold hover:scale-110 transition-transform duration-300">
                                 Solicitar contato &rarr;
                             </button>
                         </div>
@@ -140,10 +140,10 @@ export default function Homepage() {
                             Destaque-se com um site profissional feito sob medida para sua marca! A primeira impressão é decisiva, especialmente na internet. Sua empresa merece um site moderno, rápido e que transmita confiança desde o primeiro clique. Na DevPix, transformamos ideias em experiências digitais excepcionais, utilizando design limpo, funcional e totalmente personalizado.
                         </p>
                         <div className="mt-6 flex gap-4">
-                            <button className="bg-blue-900 text-white px-6 py-3 rounded-md font-semibold">
+                            <button className="bg-blue-900 text-white px-6 py-3 rounded-md font-semibold hover:scale-110 transition-transform duration-300">
                                 Descubra o Devpix &rarr;
                             </button>
-                            <button className="border-2 border-blue-900 px-6 py-3 rounded-md font-semibold">
+                            <button className="border-2 border-blue-900 px-6 py-3 rounded-md font-semibold hover:scale-110 transition-transform duration-300">
                                 Solicitar contato &rarr;
                             </button>
                         </div>
@@ -178,10 +178,10 @@ export default function Homepage() {
                             <li>Locação e Serviço Profissional: Profissionais qualificados e soluções personalizadas de acordo com suas necessidades específicas.</li>
                         </ol>
                         <div className="mt-6 flex gap-4">
-                            <button className="bg-blue-900 text-white px-6 py-3 rounded-md font-semibold">
+                            <button className="bg-blue-900 text-white px-6 py-3 rounded-md font-semibold hover:scale-110 transition-transform duration-300">
                                 Descubra o Devpix &rarr;
                             </button>
-                            <button className="border-2 border-blue-900 px-6 py-3 rounded-md font-semibold">
+                            <button className="border-2 border-blue-900 px-6 py-3 rounded-md font-semibold hover:scale-110 transition-transform duration-300">
                                 Solicitar contato &rarr;
                             </button>
                         </div>
@@ -210,7 +210,7 @@ export default function Homepage() {
                     </p>
                 </div>
                 <div className="flex justify-center items-center gap-8">
-                    <div className='bg-white w-40 p-2 h-40 mt-8 flex flex-col border-blue-900 border-2 rounded-xl justify-center items-center'>
+                    <div className='bg-white w-40 p-2 h-40 mt-8 flex flex-col border-blue-900 border-2 rounded-xl justify-center items-center hover:scale-110 transition-transform duration-300'>
                         <Image
                             src="/corporate-0.svg"
                             alt="Mulher de TI"
@@ -222,7 +222,7 @@ export default function Homepage() {
                             Transforme visitante em clients
                         </h1>
                     </div>
-                    <div className='bg-white w-40 p-2 h-40 mt-8 flex flex-col border-blue-900 border-2 rounded-xl justify-center items-center'>
+                    <div className='bg-white w-40 p-2 h-40 mt-8 flex flex-col border-blue-900 border-2 rounded-xl justify-center items-center hover:scale-110 transition-transform duration-300'>
                         <Image
                             src="/component-2.svg"
                             alt="Mulher de TI"
@@ -234,7 +234,7 @@ export default function Homepage() {
                             Site responsivo
                         </h1>
                     </div>
-                    <div className='bg-white w-40 p-2 h-40 mt-8 flex flex-col border-blue-900 border-2 rounded-xl justify-center items-center'>
+                    <div className='bg-white w-40 p-2 h-40 mt-8 flex flex-col border-blue-900 border-2 rounded-xl justify-center items-center hover:scale-110 transition-transform duration-300'>
                         <Image
                             src="/component-1.svg"
                             alt="Mulher de TI"
@@ -246,7 +246,7 @@ export default function Homepage() {
                             Edição ilimitada
                         </h1>
                     </div>
-                    <div className='bg-white w-40 p-2 h-40 mt-8 flex flex-col border-blue-900 border-2 rounded-xl justify-center items-center'>
+                    <div className='bg-white w-40 p-2 h-40 mt-8 flex flex-col border-blue-900 border-2 rounded-xl justify-center items-center hover:scale-110 transition-transform duration-300'>
                         <Image
                             src="/corporate-3.svg"
                             alt="Mulher de TI"
@@ -258,7 +258,7 @@ export default function Homepage() {
                             Segurança SSL
                         </h1>
                     </div>
-                    <div className='bg-white w-40 p-2 h-40 mt-8 flex flex-col border-blue-900 border-2 rounded-xl justify-center items-center'>
+                    <div className='bg-white w-40 p-2 h-40 mt-8 flex flex-col border-blue-900 border-2 rounded-xl justify-center items-center hover:scale-110 transition-transform duration-300'>
                         <Image
                             src="/component-4.svg"
                             alt="Mulher de TI"
@@ -285,7 +285,7 @@ export default function Homepage() {
                 </div>
                 <div className='flex justify-center'>
                     <div className="flex justify-center items-start mx-auto mt-6 mb-7 gap-4">
-                        <button className="bg-blue-900 text-white px-6 py-3 rounded-md font-semibold">
+                        <button className="bg-blue-900 text-white px-6 py-3 rounded-md font-semibold hover:scale-110 transition-transform duration-300">
                             Descubra o Devpix &rarr;
                         </button>
                     </div>
